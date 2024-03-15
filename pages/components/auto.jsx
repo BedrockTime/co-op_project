@@ -1,7 +1,6 @@
 import { Auto_props } from "./auto_props"
 
 export const Auto = () => {
-    //к пропсам можно подключить джсон, но мне лень
     return(
         <div>
             <div className="background_up">
