@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'Clear Sans thin';
+  src: url(./fonts/ClearSans/ClearSans-Thin.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url(./fonts/Intro/IntroDemo-BlackCAPS.ttf);
+  font-style: normal;
+  font-weight: 900;
+}
+
+html, body{
+  margin: 0;
+  padding: 0
+  }
+
+.background_up {
+  display: flex;
+  height: 600px;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./img/BG2.jpg");
+  background-position: bottom ;
+  background-color: black;
+  background-repeat: repeat-x;
+  color: #fff;
+}
+
+.our_auto {
+  font-family: "Intro";
+  margin-top: 50px;
+  height: 150px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.our_auto_text {
+  display: flex;
+  font-size: larger;
+}
+
+.our_auto_text_h1 {
+  margin-left: 10px;
+  color: #ffc000;
+}
+
+.our_auto_h5 {
+  font-family: "Clear Sans thin";
+  opacity: 70%;
+  font-size: medium;
+  margin-top: 0px;
+}
+
+.auto {
+  display: inline-flex;
+  height: 310px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center
+}
+
+.auto_img {
+  max-width: 300px;
+  height: auto;
+}
+
+.auto_disc {
+  font-family: "Clear Sans thin";
+  margin-top: -20px;
+  font-size: small;
+}
+
+.auto_props {
+  font-family: "Intro";
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.background_down {
+  margin-top: 100px;
+  text-align: center;
+  font-family: "Intro";
+  margin-bottom: 100px;
+}
+
+.background_down_phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+}
+
+.background_down_img {
+  margin-right: 10px;
+}
